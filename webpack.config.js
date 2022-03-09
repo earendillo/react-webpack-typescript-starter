@@ -24,7 +24,8 @@ module.exports = {
         filename: 'bundle.js'
     },
     devServer: {
-        static: './public'
+        static: './public',
+        port: 3000
     },
     devtool: "source-map"
 };

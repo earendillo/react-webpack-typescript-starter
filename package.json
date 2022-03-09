@@ -28,8 +28,7 @@
     "typescript": "^4.5.4"
   },
   "scripts": {
-    "start": "webpack serve --config ./webpack.config.js --mode development",
-    "build:ssr": "webpack --config webpack.ssr.js"
+    "start": "webpack serve --config ./webpack.config.js --mode development"
   },
   "keywords": [],
   "author": "",
